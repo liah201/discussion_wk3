@@ -1,0 +1,93 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Reset base styles (already linked as reset.css) */
+
+/* General Body Styling */
+body {
+    background-color: #f0f8ff;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    margin: 15px 0 10px 0;
+    font-family: "Georgia", serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #c35144;
+    text-align: center;
+}
+
+
+h2, h3 {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    color: #4a90e2;
+    text-align: center;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style: none; /* Remove bullets */
+    font-size: 60%;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the items */
+    padding: 10px;
+    background-color: #ffcccb;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #ef8b75; /* Change link color on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Image Styling */
+img {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #363c42;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: #ff5733; /* Bright orange on hover */
+}
